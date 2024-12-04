@@ -1,1 +1,22 @@
 /* Add CSS Styling */
+
+/* This is the root selector, which has global scope i.e it's the highest form of selector 
+   and will be applied globally across all selectors if chosen.
+    */
+:root {
+    /* This is the syntax of defining a variable --"variable-name"
+        Remember to use - for whitespaces and not actual white spaces
+     */
+    --def-width: 200px;
+}
+
+
+.avatar.proportioned {
+    width: calc(var(--def-width) + 100px);
+    height: auto;
+}
+
+.avatar.distorted {
+    width: var(--def-width);
+    height: calc(var(--def-width) * 2);
+}
