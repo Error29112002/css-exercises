@@ -1,0 +1,21 @@
+/* style.css */
+
+.redbg {
+    background-color: rgb(216, 141, 141);
+    font-family: 'Verdana', 'DejaVu Sans', sans-serif;
+}
+
+#dos {
+    color: #1616e9;
+    font-size: 36px;
+}
+
+.cooler {
+    font-size: 24px;
+}
+
+#quadro {
+    background-color: hsl(120, 60%, 65%);
+    font-size: 24px;
+    font-weight: bold;
+}
